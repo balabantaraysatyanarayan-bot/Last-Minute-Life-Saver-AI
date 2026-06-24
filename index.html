@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Last Minute Life Saver AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>⚡ Last Minute Life Saver AI</h1>
+            <p>Your emergency study and rapid revision assistant</p>
+        </header>
+        <main>
+            <div class="input-section">
+                <input type="text" id="topicInput" placeholder="Enter any topic (e.g., Core Java, Photosynthesis)...">
+                <button id="generateBtn">Revise Now 🚀</button>
+            </div>
+            <div id="loading" class="hidden">Generating materials... Please wait...</div>
+            <div id="resultSection" class="hidden">
+                <div class="card">
+                    <h2>📝 Instant AI Summary</h2>
+                    <div id="summaryResult"></div>
+                </div>
+                <div class="card">
+                    <h2>🎴 Quick Flashcards</h2>
+                    <div id="flashcardsResult"></div>
+                </div>
+                <div class="card">
+                    <h2>❓ AI Mini-Quiz</h2>
+                    <div id="quizResult"></div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
